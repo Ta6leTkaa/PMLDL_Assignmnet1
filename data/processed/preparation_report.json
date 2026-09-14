@@ -1,0 +1,69 @@
+{
+  "seed": 42,
+  "test_size": 0.2,
+  "raw_rows": 20640,
+  "duplicates_removed": 0,
+  "missing_targets_removed": 0,
+  "train_rows_before_outlier_removal": 16512,
+  "train_outliers_removed": 653,
+  "train_rows": 15859,
+  "test_rows": 4128,
+  "imputed_values": {
+    "train": {
+      "longitude": 0,
+      "latitude": 0,
+      "housing_median_age": 0,
+      "total_rooms": 0,
+      "total_bedrooms": 177,
+      "population": 0,
+      "households": 0,
+      "median_income": 0,
+      "ocean_proximity": 0
+    },
+    "test": {
+      "longitude": 0,
+      "latitude": 0,
+      "housing_median_age": 0,
+      "total_rooms": 0,
+      "total_bedrooms": 30,
+      "population": 0,
+      "households": 0,
+      "median_income": 0,
+      "ocean_proximity": 0
+    }
+  },
+  "training_medians": {
+    "longitude": -118.48,
+    "latitude": 34.25,
+    "housing_median_age": 29.0,
+    "total_rooms": 2127.0,
+    "total_bedrooms": 435.0,
+    "population": 1164.5,
+    "households": 409.0,
+    "median_income": 3.5417
+  },
+  "ocean_proximity_mode": "<1H OCEAN",
+  "outlier_rule": "3 IQR, fitted on train; remove from train only",
+  "outlier_bounds": {
+    "total_rooms": [
+      -3680.75,
+      8285.75
+    ],
+    "total_bedrooms": [
+      -747.0,
+      1689.0
+    ],
+    "population": [
+      -2052.0,
+      4570.0
+    ],
+    "households": [
+      -705.0,
+      1591.0
+    ],
+    "median_income": [
+      -3.977874999999999,
+      11.292625
+    ]
+  }
+}

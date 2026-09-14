@@ -1,0 +1,10 @@
+.git
+.venv
+__pycache__
+**/__pycache__
+data
+models/*.json
+models/*.jsonl
+*.md
+services/pipeline/logs
+tests

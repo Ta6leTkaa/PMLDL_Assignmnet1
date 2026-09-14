@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+data/processed/*.csv
+models/*.joblib
+models/training_history.jsonl
+services/pipeline/logs/

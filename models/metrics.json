@@ -1,0 +1,47 @@
+{
+  "trained_at_utc": "2026-09-14T19:04:34.238329+00:00",
+  "model": "RandomForestRegressor",
+  "parameters": {
+    "n_estimators": 100,
+    "max_depth": 20,
+    "min_samples_leaf": 2,
+    "random_state": 42,
+    "n_jobs": 1
+  },
+  "features": [
+    "longitude",
+    "latitude",
+    "housing_median_age",
+    "total_rooms",
+    "total_bedrooms",
+    "population",
+    "households",
+    "median_income",
+    "ocean_proximity"
+  ],
+  "target": "median_house_value",
+  "train_rows": 15859,
+  "test_rows": 4128,
+  "test_metrics": {
+    "mae": 32021.66395376892,
+    "rmse": 48589.96145692702,
+    "r2": 0.8196195381276904
+  },
+  "baseline_mean_metrics": {
+    "mae": 89729.5838182419,
+    "rmse": 114408.51677484019,
+    "r2": -3.0155398910380882e-05
+  },
+  "data_sha256": {
+    "train": "03a10e812fc00b85b5b016d153c6d4a9428c1747b7f6e3f4bcd80c69a16eedce",
+    "test": "ba2c76fadfd0f0e43f6c1e682260883863a1f9958e72c56e4d64f5c7b2440d0a"
+  },
+  "versions": {
+    "python": "3.14.7",
+    "sklearn": "1.9.1",
+    "pandas": "3.0.5",
+    "numpy": "2.5.3",
+    "joblib": "1.6.0"
+  },
+  "duration_seconds": 5.335
+}
